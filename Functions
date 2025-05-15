@@ -1,0 +1,66 @@
+// 1. Function Declarations, Expressions, and Arrow Functions
+// Problem 1: Write a function using function declaration that calculates the square of a number.
+// function Square(num){
+//     let ans = num **2;
+//     return ans;
+// }
+// console.log(Square(2));
+
+
+// Problem 2: Write a function using function expression that returns the area of a circle, given the radius.
+// function Area(rad){
+//     let area = 3.14 * rad *rad;
+//     return area;
+// }
+// console.log(Area(4));
+
+
+// Problem 3: Convert the previous function to an arrow function.
+// const areaOfCircle = (rad)=>{
+//     return 3.14 * rad *rad;
+// };
+
+
+// 2. Parameters vs Arguments
+// Problem 4: Write a function that takes two numbers as parameters and returns their sum. Call the function with different arguments to test it.
+// function Sum(a,b){
+//     let ans = a+b;
+//     return ans;
+// }
+// console.log(Sum(2,3));
+
+
+// Problem 5: Write a function that accepts a string and a number (as parameters) and repeats the string by the given number of times. 
+// Call the function with different values for the string and the number.
+// function repeatString(str, times){
+//     let result = " "
+//     for(let i = 0;i<times;i++){
+//         result+=str;
+//     }
+//     return result;
+
+// }
+// console.log(repeatString("hello",3))
+// console.log(repeatString("oyee",2))
+
+
+// 3. Return Values, Default Parameters
+// Problem 6: Write a function that accepts a number and returns its factorial.
+//  The function should return 1 if no number is passed (default parameter).
+// function fact(n = 1){
+//     let result = 1;
+//     for (let i = 2;i<=n;i++){
+//         result*=i;
+//     }
+//     return result;
+// }
+// console.log(fact(5))
+
+
+// Problem 7: Write a function that calculates the total price of a shopping cart. 
+// If no discount is provided, apply a default discount of 5%. The function should return the final price after the discount.
+// function totalPrice(cartTotal , discount = 5){
+//     let total = cartTotal - (cartTotal*(discount/100))
+//     return total;
+// }
+// console.log(totalPrice(1000))
